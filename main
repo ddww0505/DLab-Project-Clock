@@ -8,3 +8,6 @@ module main{
     output show[7:0];  //七段顯示器的電晶體
     output sound; //聲音
 }
+
+reg secclk;
+devider kkk(clk, secclk, msecclk);  //秒、毫秒
